@@ -1,0 +1,111 @@
+{
+  "name": "linted-react-redux-boilerplate-with-testing",
+  "version": "1.0.0",
+  "description": "A linted react redux boilerplate with testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.dev.js --mode development",
+    "lint": "esw src/**/*.jsx src/**/**/*.jsx -w --fix --color",
+    "test": "jest src/components/inputs src/components/forms --coverage --verbose --colors",
+    "snapshot:remove": "npm test -- -u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J0NNYZER0/linted-react-redux-boilerplate-with-testing.git"
+  },
+  "keywords": [
+    "react",
+    "redux"
+  ],
+  "author": "Jon Ortiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J0NNYZER0/linted-react-redux-boilerplate-with-testing/issues"
+  },
+  "homepage": "https://github.com/J0NNYZER0/linted-react-redux-boilerplate-with-testing#readme",
+  "dependencies": {
+    "autoprefixer": "^9.4.10",
+    "connected-react-router": "^6.3.1",
+    "domain": "0.0.1",
+    "history": "^4.7.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-hot-loader": "^4.7.2",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.0.0",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-es2017": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "babel-loader": "^8.0.5",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^2.1.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.10.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-watch": "^5.0.1",
+    "file-loader": "^3.0.1",
+    "isomorphic-fetch": "^2.2.1",
+    "jest": "^24.1.0",
+    "lodash": "^4.17.11",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "react-test-renderer": "^16.8.4",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "jest": {
+    "setupFiles": [
+      "raf/polyfill",
+      "./tools/enzymeTestAdapterSetup.js"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "plugins": [
+      "react"
+    ],
+    "env": {
+      "browser": true,
+      "jest": true
+    },
+    "rules": {
+      "semi": [
+        2,
+        "always"
+      ],
+      "import/no-extraneous-dependencies": [
+        "error",
+        {
+          "devDependencies": true
+        }
+      ],
+      "global-require": 0,
+      "no-comma-dangle": 0,
+      "no-extra-semi": 0
+    }
+  }
+}
