@@ -10,7 +10,7 @@ Intuit code craft challenge
 
 # user flow
 
-**Search Github Repos Page -**
+**Search Github Repos Page -** This main page allows users to search github repositories.
 
 <p align="center">
   <img width="300" src="https://s3-us-west-1.amazonaws.com/vellocet/images/flow-1.png"/>
