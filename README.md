@@ -27,3 +27,21 @@ Intuit code craft challenge
 <p align="center">
   <img width="300" src="https://s3-us-west-1.amazonaws.com/vellocet/images/flow-3.png"/>
 </p>
+
+**Flow 4**
+
+<p align="center">
+  <img width="300" src="https://s3-us-west-1.amazonaws.com/vellocet/images/flow-4.png"/>
+</p>
+
+**Flow 5**
+
+<p align="center">
+  <img width="300" src="https://s3-us-west-1.amazonaws.com/vellocet/images/flow-5.png"/>
+</p>
+
+**Flow 6**
+
+<p align="center">
+  <img width="300" src="https://s3-us-west-1.amazonaws.com/vellocet/images/flow-6.png"/>
+</p>
