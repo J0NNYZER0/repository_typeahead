@@ -1,7 +1,7 @@
 {
-  "name": "linted-react-redux-boilerplate-with-testing",
+  "name": "repository_typeahead",
   "version": "1.0.0",
-  "description": "A linted react redux boilerplate with testing",
+  "description": "A linted and minimally tested code craft challenge for intuit",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.dev.js --mode development",
