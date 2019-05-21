@@ -14,6 +14,7 @@ module.exports = {
     compress: true,
     historyApiFallback: true,
     hot: true,
+    open: 'Google Chrome',
     port: 8081,
   },
   resolve: {
